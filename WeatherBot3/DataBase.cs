@@ -21,7 +21,6 @@ class DataBase
 
             var result = await db.ExecuteScalarAsync<int>(sql, new { TelegramId = telegramId, UserName = userName });
 
-            // If the user already exists, return the existing user ID
             if (result == 0)
             {
                 string selectSql = "SELECT Id FROM Users WHERE TelegramId = @TelegramId";
