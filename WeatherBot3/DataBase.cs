@@ -7,7 +7,7 @@ using MySql.Data.MySqlClient;
 
 class DataBase
 {
-    private readonly string _connectionString = "Server=localhost;Database=weatherbot;User Id=root;Password=Mahubu1769!;";
+    private readonly string _connectionString = "Server=localhost;Database=weatherbot;User Id=Your UserID;Password=Your Password;";
 
     public async Task<int> AddUserAsync(long telegramId, string userName)
     {

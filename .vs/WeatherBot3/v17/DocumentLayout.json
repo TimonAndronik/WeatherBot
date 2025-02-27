@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WeatherBot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{610C90FA-ECAF-4C85-97A9-F59BC9FE273C}|WeatherBot3\\WeatherBot3.csproj|c:\\weatherbot\\weatherbot3\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610C90FA-ECAF-4C85-97A9-F59BC9FE273C}|WeatherBot3\\WeatherBot3.csproj|solutionrelative:weatherbot3\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{610C90FA-ECAF-4C85-97A9-F59BC9FE273C}|WeatherBot3\\WeatherBot3.csproj|c:\\weatherbot\\weatherbot3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{610C90FA-ECAF-4C85-97A9-F59BC9FE273C}|WeatherBot3\\WeatherBot3.csproj|solutionrelative:weatherbot3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\WeatherBot\\WeatherBot3\\DataBase.cs",
+              "RelativeDocumentMoniker": "WeatherBot3\\DataBase.cs",
+              "ToolTip": "C:\\WeatherBot\\WeatherBot3\\DataBase.cs",
+              "RelativeToolTip": "WeatherBot3\\DataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:30:51.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WeatherBot\\WeatherBot3\\Program.cs",
+              "RelativeDocumentMoniker": "WeatherBot3\\Program.cs",
+              "ToolTip": "C:\\WeatherBot\\WeatherBot3\\Program.cs",
+              "RelativeToolTip": "WeatherBot3\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAIwF0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:27:44.163Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

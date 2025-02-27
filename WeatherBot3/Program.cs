@@ -50,8 +50,11 @@ namespace WeatherBot
                         new KeyboardButton("Інструкція")
                 };
 
-                ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup(keyboard);
-
+                ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup(keyboard) 
+                {
+                    ResizeKeyboard = true
+                };
+                await botClient.SendMessage(chatId: message.Chat.Id, "Привіт! Обери опцію нижче:",replyMarkup: replyKeyboardMarkup);
                 return;
             }
 
@@ -97,6 +100,7 @@ namespace WeatherBot
 
                 string city = parts[1];
                 string weather = await GetWeatherAsync(city);
+                await botClient.SendMessage(message.Chat.Id, $"\n{weather}");
                 await database.SaveWeatherRequestAsync(userId, city, weather);
 
                 return;
